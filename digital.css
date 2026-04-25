@@ -1,0 +1,36 @@
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.clock{
+    height: 15vh;
+    width: 35vh;
+    border: 8px solid blueviolet;
+    color: blueviolet;
+    font-size: 5rcm;
+    padding: 10px  20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px blueviolet;
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+
+}
+
+ *.clock{
+    font-size: 4rem;
+ }
